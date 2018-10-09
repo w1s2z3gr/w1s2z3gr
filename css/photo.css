@@ -1,0 +1,109 @@
+body{
+	
+}
+.photoTitle{
+	width: 100%;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+}
+.photoTitle p{
+	padding-left: 25px;
+	color: #fff;
+	letter-spacing: 25px;
+	text-shadow: 0 0 10px #fff;
+	font-family: "楷体";
+	font-size: 16px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #ccc;
+}
+.title h2{
+	margin: 35px 0 10px;
+	color: #C4E3F3;
+	font-weight: normal;
+}
+.title span{
+	width: 200px;
+	display: inline-block;
+	height: 4px;
+	background: #CCCCCC;
+	margin-bottom: 25px;
+	margin-top:8px;
+}
+.photoList {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+}
+.photoList .listLeft{
+	width: 48%;
+	height: 600px;
+	position: relative;
+}
+.photoList .listLeft ul{
+	position: absolute;
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	z-index: 9;
+}
+.photoList .listLeft ul li{
+	background:#fff;
+	position: absolute;
+	padding: 8px;;
+	height: 600px;
+	border-radius: 4px;
+	box-shadow: inset 0 0 10px #000; 
+	z-index: 10;
+}
+.photoList .listLeft ul li.active{
+	z-index: 20;
+}
+.photoList .listLeft ul li img{
+	width: 100%;
+	height: 100%;
+	display:inline-block;
+	box-shadow: inset 0 0 10px #000;
+}
+.photoList .listRight{
+	width: 48%;
+	height: 600px;
+}
+.photoList .listRight div{
+	border-radius: 4px;
+	padding: 8px;
+	background: #fff;
+	box-shadow: inset 0 0 10px #000; 
+}
+.photoList .listRight .picOne{
+	width: 100%;
+	height: 240px;
+}
+.photoList .listRight .picOne img{
+	width: 100%;
+	height: 100%;
+	box-shadow: inset 0 0 10px #000; 
+}
+.photoList .listRight .picTwo{
+	width:100% ;
+	height: 350px;
+	margin-top: 10px;
+}
+.photoList .listRight .picTwo{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+}
+.photoList .listRight .picTwo img{
+	width: 49%;
+	height: 100%;
+}
+.photoList{
+	margin-bottom: 30px;
+}
+
+
+
+
+
+

@@ -1,0 +1,89 @@
+*{
+    font-family: "微软雅黑"
+}
+body{
+    background: #212226;
+}
+a:focus,a:hover{
+    text-decoration: none;
+}
+.header{
+    height: 60px;
+    width: 100%;
+    background: #212226;
+    line-height: 60px;
+    box-shadow: 0 4px 10px #000; 
+}
+.header .headerBox{
+    height: 60px;
+    line-height: 60px;
+}
+.headerBox .logo{
+    float: left;
+    width: 122px;
+    height: 60px;
+    }
+.headerBox .logo a{
+    display: inline-block;
+    width: 122px;
+    height: 60px;
+    background: url(../img/logo.png) no-repeat;
+    background-size:100% 100%;
+    margin-left: 22px; 
+}
+.headerBox ul{
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+.headerBox ul li{
+    overflow: hidden;
+    padding: 0 10px;
+    width: 120px;
+}
+.headerBox ul li a{
+    width: 100px;
+    text-align: center;
+    height: 54px;
+    font-size: 16px;
+    line-height: 54px;
+    color: #bbbdc2;
+    display: inline-block;
+    transition: all .2s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+.headerBox ul li.active a{
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    border-color: #fff;
+    letter-spacing: 4px;
+}
+.headerBox ul li a:hover{
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 4px;
+    transition: all .2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
